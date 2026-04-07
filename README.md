@@ -1,0 +1,66 @@
+# 🚆 Train Scheduling Database System
+
+## 📌 Overview
+This project is a relational database system designed for a freight railway company to manage train scheduling, rolling stock allocation, and goods transportation.
+
+The system was developed using SQL Server and follows proper database design principles including normalization, constraints, and relationship modeling.
+
+---
+
+## 🧠 Features
+- Train scheduling and route management
+- Rolling stock tracking (locomotives & wagons)
+- Driver qualification validation
+- Goods and consignment management
+- Multi-stage route distance calculation
+- Data integrity using constraints
+
+---
+
+## 🏗️ Database Design
+- Fully normalized (3NF)
+- 14+ tables with relationships
+- Many-to-many relationships handled using junction tables
+- Primary keys, foreign keys, and check constraints implemented
+
+---
+
+## 🛠️ Technologies Used
+- SQL Server Management Studio (SSMS)
+- SQL (DDL, DML)
+- ER Diagram (Lucidchart)
+
+---
+
+## 📂 Project Structure
+- `/sql` → SQL scripts (tables, data, queries)
+- `/diagrams` → ER diagram
+- `/screenshots` → outputs and results
+
+---
+
+## 📊 Sample Queries
+- Calculate total train weight
+- Find qualified drivers for locomotives
+- Compute route distances
+- Generate train schedules
+
+---
+
+## 💡 Learning Outcomes
+- Database design (ER modeling)
+- Normalization (3NF)
+- Writing efficient SQL queries
+- Implementing constraints and relationships
+
+---
+
+## 🚀 Future Improvements
+- Add licence expiry validation
+- Implement scheduling conflict detection
+- Track real-time location of rolling stock
+
+---
+
+## 📬 Author
+Nethra Herath
